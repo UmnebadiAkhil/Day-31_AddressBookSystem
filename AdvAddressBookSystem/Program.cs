@@ -1,4 +1,4 @@
-﻿using System;
+﻿using AdvAddressBookSystem;
 
 namespace AddressBookADO.Net
 {
@@ -11,7 +11,11 @@ namespace AddressBookADO.Net
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, Welcome to AddressBookADO.Net!");
-         
+
+            AddressBookManagement addressBookManagement = new AddressBookManagement();
+
+            addressBookManagement.DataBaseConnection(); //UC1
+            Console.ReadLine();
         }
     }
 }
