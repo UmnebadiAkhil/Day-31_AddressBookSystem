@@ -14,9 +14,16 @@ namespace AddressBookADO.Net
 
             AddressBookManagement addressBookManagement = new AddressBookManagement();
 
-            addressBookManagement.DataBaseConnection(); //UC1
+            //addressBookManagement.DataBaseConnection(); //UC1
 
-            addressBookManagement.GetAllContact(); //UC1
+            //addressBookManagement.GetAllContact(); //UC2
+
+            // AddNewContactDetails(); //UC3
+
+            // Console.WriteLine(addressBookManagement.EditContactUsingName("518348", "Akhil", "Umnebadi") ? "Update Record successfully\n" : "Update failed"); //UC4
+
+
+            Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kumbhare") ? "Delete Record successfully\n" : "Delete failed"); //UC5
 
 
 
