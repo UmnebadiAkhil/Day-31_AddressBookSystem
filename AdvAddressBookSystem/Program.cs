@@ -23,8 +23,9 @@ namespace AddressBookADO.Net
             // Console.WriteLine(addressBookManagement.EditContactUsingName("518348", "Akhil", "Umnebadi") ? "Update Record successfully\n" : "Update failed"); //UC4
 
 
-            Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kumbhare") ? "Delete Record successfully\n" : "Delete failed"); //UC5
+            //Console.WriteLine(addressBookManagement.DeleteContactUsingName("Ekta", "Kumbhare") ? "Delete Record successfully\n" : "Delete failed"); //UC5
 
+            addressBookManagement.RetrieveContactFromCityOrStateName(); //UC6
 
 
 
